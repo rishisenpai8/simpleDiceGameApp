@@ -21,4 +21,7 @@ Pick a number between **1** and **6**, then roll the dice:
 - **React** (Frontend)
 - **React Router** (Multi-page navigation)
 - **JavaScript ES6+**
-- **CSS 
+- **CSS
+
+  Demo Video
+  https://github.com/user-attachments/assets/ab260f2b-c824-4ddd-a962-152d081cf232
