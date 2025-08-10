@@ -1,0 +1,45 @@
+/* @font-face {
+    font-family: inter;
+    src: url(../../assets//InterRoboto/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+} */
+
+.primaryBtn {
+    font-family: sans-serif;
+    width: 220px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.primaryBtn:hover {
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+}
+
+.secondaryBtn {
+    font-family: sans-serif;
+    width: 220px;
+    height: 44px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.secondaryBtn:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+}

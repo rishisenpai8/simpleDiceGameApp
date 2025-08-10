@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../../../assets/InterRoboto/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+.landingPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 77%;
+    height: 77%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingPageHero {
+    width: 50%;
+    height: 100%;
+}
+
+.landingPageHero img {
+    max-width: 100%;
+    margin-top: 7rem;
+    transition: transform 1s ease;
+}
+
+.landingPageHero img:hover {
+    transform: scale(1.10);
+
+}
+
+.landingPageContent {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.landingPageContent> :nth-child(1) {
+    width: 528px;
+    font-size: 4rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.landingPageContent> :nth-child(2) {
+    align-self: flex-end;
+}
